@@ -1,5 +1,8 @@
 #!/bin/bash
 
-echo Mahesh: Hi,Suresh how are you 
-echo Suresh: Iam fine, What about you Mahesh
-echo Mahesh: Iam good Suresh
+ PERSON1=Mahesh
+ PERSON2=Suresh
+
+echo $PERSON1: Hi,$PERSON2 how are you 
+echo $PERSON2: Iam fine, What about you $PERSON1
+echo $PERSON1: Iam good Suresh

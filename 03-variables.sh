@@ -2,4 +2,4 @@
 
 DATE=$(date)
 
-echo "time and date is: ${DATE}"
+echo "date and time is: ${DATE}"

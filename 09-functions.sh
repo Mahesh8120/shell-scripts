@@ -11,6 +11,4 @@ else
 fi
 
 yum install git -y
-
-
-
+                

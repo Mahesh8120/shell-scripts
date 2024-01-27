@@ -1,6 +1,7 @@
 #!/bin/bash
 
 ID=$(id -u)
+TIMESTAMP=$(date +%F-%H-%M-%S)
 LOGFILE="tem/$0-$TIMESTAMP.log"
 
 R="\e[31m"

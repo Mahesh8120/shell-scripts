@@ -3,9 +3,9 @@
 ID=$(id -u)
 LOGFILE="tem/$0-$TIMESTAMP.log"
 
-R="/e[31m"
-G="/e[32m"
-N="/e[0m"
+R="\e[31m"
+G="\e[32m"
+N="\e[0m"
 
 
 VALIDATE(){

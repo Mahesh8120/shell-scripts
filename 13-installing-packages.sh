@@ -11,4 +11,3 @@ else
 if
 
 yum install mysql -y
-

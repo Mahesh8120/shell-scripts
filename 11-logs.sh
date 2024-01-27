@@ -28,8 +28,8 @@ VALIDATE(){
 
     yum install git -y &>> $LOGFILE
 
-    VALIDATE $? "installing mysql" 
+    VALIDATE $? "installing git" 
 
     yum install postgress -y &>> $LOGFILE
      
-    VALIDATE $? "insalling git" 
+    VALIDATE $? "insalling postgress" 

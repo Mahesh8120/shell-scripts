@@ -7,12 +7,12 @@ G="\e[32m"
 N="\e[0m"
 
 VALIDATE(){                            
-  if [ $? -ne 0 ]
+  if [ $1 -ne 0 ]
   then
-      echo -e "installation is .....$R failed $N"
+      echo -e "$2 is .....$R failed $N"
       exit 1
   else
-      echo -e "installation is .....$G success $N"
+      echo -e "$2 is .....$G success $N"
   fi   
 }
 
@@ -25,7 +25,7 @@ else
 fi    
 
 yum install git -y
-VALIDATE 
+VALIDATE $? installing git
 
 yum install mysql -y
-VALIDATE
+VALIDATE $? installing mysql
